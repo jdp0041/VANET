@@ -22,7 +22,7 @@ This program is distributed in the hope that it will be useful,
 In this ReadMe file, the basic components that make up this vehicular
  ad-hoc networks (VANETs) simulation are outlined.
  
-#--------------------------------------------------------------------------
+#---------------------------
 communication_terminal.py
   This file defines a basic class representing the vehicular communication terminal.
 
@@ -35,7 +35,7 @@ scenario.py
 demo.py
   This file provides a basic simulation animation demo for the application of this VANET simulation project.     
 
-#--------------------------------------------------------------------------
+#---------------------------
 The objective of this simulation project developed in Python is to explore implementation of a simple epidemic-based routing mechanism designed to support reliable message dissemination in vehicular ad-hoc networks. In this project, the simulation can be carried out under different mobility by adopting different distributions of vehicle speed and inter-vehicle space, which provides several typical traffic scenarios for studying the epidemic routing mechanism. In addition, I remark that the basic mobility model used here is based on the well-known intelligent dreiver model (IDM), the detailed mathematical representation of the IDM can be referred to in the WIKIPEDIA: https://en.wikipedia.org/wiki/Intelligent_driver_model, and the default mobility parameters involved are set according to existing liturature.
 
 You are perfectly welcome to use and modify this simulation project, and contribute to improving it. But you should keep the original copyright information above in your own re-distribution. Thanks!
