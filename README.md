@@ -25,19 +25,19 @@ In this ReadMe file, the basic components that make up this vehicular
  ad-hoc networks (VANETs) simulation are outlined.
  
 #---------------------------
-communication_terminal.py
+**communication_terminal.py**
 
   This file defines a basic class representing the vehicular communication terminal.
 
-vehicle.py
+**vehicle.py**
 
   This file defines a vehicle class that consists of the IDM model and needs the support of the communication terminal class.
 
-scenario.py
+**scenario.py**
 
   This file provides the experimental settings on the vehicle speed distribution and the inter-vehicle distance distribution that can reflect different traffic situations. The scenario class defines some basic simulation components needed to initialize and update the overall vehicular network state. Specifically, the position update function and the interaction among neighboring vehicles are detailed. It is worth pointing out here that the current scenario can support the simulation of bi-directional multi-lane vehicle platoons.
 
-demo.py
+**demo.py**
 
   This file provides a basic simulation animation demo for the application of this VANET simulation project.     
 
