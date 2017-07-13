@@ -267,8 +267,8 @@ class Scenario(object):
         for lane_ID in range(self.LANE_NUM_PER_DIRECT):
             
             #update right pool
-            for ind in range(len(self.right_pool[lane_ID])):
-                if ind == len(self.right_pool[lane_ID])-1:
+            for ind in np.arange(-1,-1-len(self.right_pool[lane_ID]),-1):
+                if ind == -1:
                     front_vehicle = -1
                 else:
                     front_vehicle = self.right_pool[lane_ID][ind+1]
@@ -284,8 +284,8 @@ class Scenario(object):
                         self.current_message_carrier.remove(vehicle)
                     
             #update left pool
-            for ind in range(len(self.left_pool[lane_ID])):
-                if ind == len(self.left_pool[lane_ID])-1:
+            for ind in np.arange(-1,-1-len(self.left_pool[lane_ID]),-1):
+                if ind == -1:
                     front_vehicle = -1
                 else:
                     front_vehicle = self.left_pool[lane_ID][ind+1]
