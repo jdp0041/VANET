@@ -37,7 +37,7 @@ class Mobility(object):
                  a = 1.0, # maximum acceleration in m/s^2
                  b = 3.0, # desired deceleration in m/s^2
                  delta = 4.0, # acceleration exponent
-                 s0 = 2, # minimum distance in m
+                 s0 = 10, # minimum distance in m
                  l0 = 5.0): # the length of each vehicle in m
         
         self.v0 = v0

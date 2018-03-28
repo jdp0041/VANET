@@ -35,10 +35,10 @@ from scenario import Scenario
 #------------------------------------------------------------------------------
 # set up the scenario
 scenario = Scenario(Mobility(),
-                 road_length = 2.0*10**3, # the length of the road in meter
+                 road_length = 10000, # the length of the road in meter
                  two_direction = True, # bool-type flag indicates the directions
-                 lane_width = 3.0, # lane width
-                 lane_num_per_direct = 1, # the number of lanes per direction
+                 lane_width = 5.0, # lane width
+                 lane_num_per_direct = 2, # the number of lanes per direction
                  vehicle_length = 5.0, # length of a vehicle in meter
                  onehop_delay = 10.0*10**(-3), # the delay in one-hop communication in second
                  total_sim_time = 60.0, # total simulation time in second
